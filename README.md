@@ -20,7 +20,7 @@
 
 ## Overview
 
-_**MeshedFamily.com** is the beginnings of a family/life organization app which will allow each family to organize thier tasks/todos/appts and finances on a single site, with full CRUD functionality. Family accounts will be created by registering an initial user firstly, and te creating family member identities. An account will give access to creating tasks/todos and adding monthly expense details.
+**MeshedFamily.com** is the beginnings of a family/life organization app which will allow each family to organize thier tasks/todos/appts and finances on a single site, with full CRUD functionality. Family accounts will be created by registering an initial user firstly, and te creating family member identities. An account will give access to creating tasks/todos and adding monthly expense details.
 <br>
 
 ## MVP
