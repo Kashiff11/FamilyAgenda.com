@@ -1,4 +1,4 @@
-# MeshedFamily README <!-- omit in toc -->
+# MeshedFamily.com README
 
 - [Overview](#overview)
 - [MVP](#mvp)
@@ -20,14 +20,10 @@
 
 ## Overview
 
-_**Project Title** is lorem ipsum dolor sit amet. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
-
-
+_**MeshedFamily.com** is the beginnings of a family/life organization app which will allow each family to organize thier tasks/todos/appts and finances on a single site, with full CRUD functionality. Family accounts will be created by registering an initial user firstly, and te creating family member identities. An account will give access to creating tasks/todos and adding monthly expense details.
 <br>
 
 ## MVP
-
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
 
 _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
 
