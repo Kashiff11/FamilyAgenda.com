@@ -1,4 +1,4 @@
-# MeshedFamily.com README
+# MyPoemsCollection.com README
 
 - [Overview](#overview)
 - [MVP](#mvp)
@@ -20,16 +20,16 @@
 
 ## Overview
 
-**MeshedFamily.com** is the beginnings of a family/life organization app which will allow each family to organize thier tasks/todos/appts and expenses on a single site, with full CRUD functionality. Family accounts will be created by registering an initial user firstly, and te creating family member identities. An account will give access to creating tasks/todos and adding monthly expense details.
+**MyPoemsCollection.com** is an app designed for poetry entusiasts everywhere. Users will be able to scroll through a library of poet profiles and collected poems created by a community of poetry lovers. Poet Profiles will be organized either alphabetically, place of birth, or birth date. Poems will be categorized by author, topic, and compilation date. Users will create profiles for their favorite poets, introducing them to the public, and will be able to add their own favorite poems to the library, building a 
 <br>
 
-**MeshedFamily.com MVP** 
+**MyPoemsCollection.com MVP** 
 
 ### Server - Back End
 
 - **Server** built with Ruby on Rails with RESTful JSON endpoints. 
 - **Database** will have three tables:
-  - **Family/User table**: this table will be created wen registering for the app. This table will have a 1:m relationsip with the remaining tables.
+  - **User table**: this table will be created wen registering for the app. This table will have a 1:m relationsip with the remaining tables.
   - **To-do table**: This table will have a m:1 relationship with the users table. Users will be able to create todo items in the following categories:
     -Work
     -Education
