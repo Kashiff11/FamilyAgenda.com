@@ -29,15 +29,12 @@
 
 - **Server** built with Ruby on Rails with RESTful JSON endpoints. 
 - **Database** will have three tables:
-  - **User table**: this table will be created wen registering for the app. This table will have a 1:m relationsip with the remaining tables.
-  - **To-do table**: This table will have a m:1 relationship with the users table. Users will be able to create todo items in the following categories:
-    -Work
-    -Education
-    -Finances
-    -Health
-    -Leisure
-    -Shopping
-  - **Expenses**: This table will have a m:1 relationship with the users table. users will be able to record expenses and divide them by the same categories that exist in the todo table.
+  - **User Table**: this table will be created wen registering for the app. This table will have a 1:m relationsip with the poets' table.
+  - **Poets Table**: This table will have a m:1 relationship with the users table and 1:m relationship with the Poems table. Users will be able to create a "Poet Profile with the following information:
+    -Name
+    -Year of Birth
+    -Place of Birth
+  - **Poems**: This table will have a m:1 relationship with the poets' table. User will be able to create
 - I will use **Rails** to define models for interacting with the tables in my database.
 - Working generic controller actions for Full CRUD between the tables in my database. 
 
