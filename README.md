@@ -34,21 +34,28 @@
     -Name
     -Year of Birth
     -Place of Birth
-  - **Poems**: This table will have a m:1 relationship with the poets' table. User will be able to create
-- I will use **Rails** to define models for interacting with the tables in my database.
+  - **Poems Table**: This table will have a m:1 relationship with the poets' table.
+- **Rails** will be used define models for interacting with the tables in my database.
 - Working generic controller actions for Full CRUD between the tables in my database. 
 
 ### Client (Front End)
 
-- Front end will be created with **React app**:
-  - Have at least 8 separate, rendered components in an organized and understandable React file structure.
-  - Utilize functional and class React components appropriately.
-  - Utilize state and props in your components efficiently.
+- Front end will be created with **React app**, using functional components:
+
+|     Screens      | Components  |
+| :--------------: | :---------: |
+|     Home Page    |   Header    |
+|   Sign In Page   |   Footer    |
+|   Register Page  |Register Card|
+|   User Home Page |Sign In Card |
+|   Add Poem Page  | Poem Feed   |
+|   Add Poet Page  | Poet Card   |
+|  Single Poem Page|             |
+|  Single Poet Page|             |
+
   - Use _only_ React for DOM Manipulation.
-- Consume data from your **Ruby on Rails API**, and render that data in your components.
 - Utilize **React Router**, for client-side routing.
 - Demonstrate Full CRUD actions ( `index`, `show`, `create`, `update`, and `delete` ) on the front end.
-  - _Note that if you decide to implement Auth, your full CRUD actions must be covered amongst your non-User tables._
 
 ### Styling <!-- omit in toc -->
 
