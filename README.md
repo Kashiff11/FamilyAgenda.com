@@ -25,25 +25,25 @@
 
 **MeshedFamily.com MVP** 
 
-### Server - Back End)
+### Server - Back End
 
-- Server built with Ruby on Rails with RESTful JSON endpoints. 
-- Database will have three tables:
-  - Family/User table: this table will be created wen registering for the app. This table will have a 1:m relationsip with the remaining tables.
-  - Todo table: This table will have a m:1 relationship with the users table. Users will be able to create todo items in the following categories:
+- **Server** built with Ruby on Rails with RESTful JSON endpoints. 
+- **Database** will have three tables:
+  - **Family/User table**: this table will be created wen registering for the app. This table will have a 1:m relationsip with the remaining tables.
+  - **To-do table**: This table will have a m:1 relationship with the users table. Users will be able to create todo items in the following categories:
     -Work
     -Education
     -Finances
     -Health
     -Leisure
     -Shopping
-  - Expenses: This table will have a m:1 relationship with the users table. users will be able to record expenses and divide them by the same categories that exist in the todo table.
-- Utilize **Rails** to define models for interacting with the database.
-- Implement working generic controller actions for Full CRUD (`index`, `show`, `create`, `update`, `delete`) between your non-User tables 
+  - **Expenses**: This table will have a m:1 relationship with the users table. users will be able to record expenses and divide them by the same categories that exist in the todo table.
+- I will use **Rails** to define models for interacting with the tables in my database.
+- Working generic controller actions for Full CRUD between the tables in my database. 
 
 ### Client (Front End)
 
-- Have a working, interactive **React** app, built using `npx create-react-app`.
+- Front end will be created with **React app**:
   - Have at least 8 separate, rendered components in an organized and understandable React file structure.
   - Utilize functional and class React components appropriately.
   - Utilize state and props in your components efficiently.
