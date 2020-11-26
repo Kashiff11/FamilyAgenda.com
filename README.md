@@ -76,11 +76,10 @@ I will be using CSS styling, specifically grid and flex.
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Lorem ipsum dolor sit amet, consectetur._ |
-|   React Router   | _Lorem ipsum dolor sit amet, consectetur._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
-|     Express      | _Lorem ipsum dolor sit amet, consectetur._ |
-|  Express Router  | _Lorem ipsum dolor sit amet, consectetur._ |
+|      React       | _Front End Client_ |
+|   React Router   | _Client Side Routing._ |
+|   Ruby on Rails  | _Backend Server._ |
+
 
 <br>
 
