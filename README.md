@@ -54,28 +54,23 @@
 |  Single Poet Page|             |
 
   - Use _only_ React for DOM Manipulation.
-- Utilize **React Router**, for client-side routing.
-- Demonstrate Full CRUD actions ( `index`, `show`, `create`, `update`, and `delete` ) on the front end.
+- The app will use **React Router**, for client-side routing.
 
-### Styling <!-- omit in toc -->
+### Styling
 
-- Be styled with CSS (or SCSS, if you'd prefer).
-- Use Flexbox or Grid in your layout design.
-- Implement 2 media queries for responsive design on 3 screen sizes (including desktop).
+I will be using CSS styling, specifically grid and flex.
 
 <br>
 
-### Goals
+### Website Goals
 
-- _Lorem ipsum, dolor sit amet,_
-- _consectetur adipiscing elit._
-- _Phasellus dapibus fermentum risus vitae bibendum._
-- _Integer vel ipsum mollis odio sollicitudin ornare eu vel ex._
-- _etc._
+- Build a Ruby on Rails Server that can be consumed easily by the front end.
+- Create an aesthetically pleasing website that makes good use of white space, fonts, imagery to create an inviting environment.
+- Create an architecture condusive to conitnued improvements and additions to the app.
 
 <br>
 
-### Libraries and Dependencies
+### Libraries & Dependencies
 
 > Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
 
