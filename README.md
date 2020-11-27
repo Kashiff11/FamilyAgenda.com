@@ -73,23 +73,8 @@ I will be using CSS styling, specifically grid and flex.
 - Registration Page
 ![](https://i.imgur.com/59h4tzQ.png)
 
-- Desktop Hero
-
-![Dummy Link](url)
-
-- Resource Index
-
-![Dummy Link](url)
-
-- Resource Show
-
-![Dummy Link](url)
-
-- Tablet Resource Index
-
-![Dummy Link](url)
-
-- Mobile Resource Index
+- User Home Pahe
+![](https://i.imgur.com/hxCe94r.png)
 
 #### Component Tree
 
