@@ -1,23 +1,5 @@
 # MyPoemsCollection.com README
 
-- [Overview](#overview)
-- [MVP](#mvp)
-  - [Goals](#goals)
-  - [Libraries and Dependencies](#libraries-and-dependencies)
-  - [Client (Front End)](#client-front-end)
-    - [Wireframes](#wireframes)
-    - [Component Tree](#component-tree)
-    - [Component Hierarchy](#component-hierarchy)
-    - [Component Breakdown](#component-breakdown)
-    - [Time Estimates](#time-estimates)
-  - [Server (Back End)](#server-back-end)
-    - [ERD Model](#erd-model)
-- [Post-MVP](#post-mvp)
-- [Code Showcase](#code-showcase)
-- [Code Issues & Resolutions](#code-issues--resolutions)
-
-<br>
-
 ## Overview
 
 **MyPoemsCollection.com** is an app designed for poetry entusiasts everywhere. Users will be able to scroll through a library of poet profiles and collected poems created by a community of poetry lovers. Poet Profiles will be organized either alphabetically, place of birth, or birth date. Poems will be categorized by author, topic, and compilation date. Users will create profiles for their favorite poets, introducing them to the public, and will be able to add their own favorite poems to the library, building a 
@@ -45,15 +27,13 @@
 |     Screens      | Components  |
 | :--------------: | :---------: |
 |     Home Page    |   Header    |
-|   Sign In Page   |   Footer    |
-|   Register Page  |Register Card|
-|   User Home Page |Sign In Card |
-|   Add Poem Page  | Poem Feed   |
-|   Add Poet Page  | Poet Card   |
+|   Register Page  |   Footer    |
+|   User Home Page |Register Card|
+|   Add Poem Page  |Sign In Card |
+|   Add Poet Page  | Poem Feed   |
+| Single Poet Page | Poet Card   |
 |  Single Poem Page|             |
-|  Single Poet Page|             |
 
-  - Use _only_ React for DOM Manipulation.
 - The app will use **React Router**, for client-side routing.
 
 ### Styling
@@ -74,8 +54,8 @@ I will be using CSS styling, specifically grid and flex.
 
 > Use this section to list all supporting libraries and dependencies, and their role in the project. Below is an example - this needs to be replaced!
 
-|     Library      | Description                                |
-| :--------------: | :----------------------------------------- |
+|     Library      | Description    |
+| :--------------: | :-------------:|
 |      React       | _Front End Client_ |
 |   React Router   | _Client Side Routing._ |
 |   Ruby on Rails  | _Backend Server._ |
