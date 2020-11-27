@@ -71,7 +71,7 @@ I will be using CSS styling, specifically grid and flex.
 ![](https://i.imgur.com/EqMCQxa.png)
 
 - Registration Page
-![](https://i.imgur.com/59h4tzQ)
+![](https://i.imgur.com/59h4tzQ.png)
 
 - Desktop Hero
 
