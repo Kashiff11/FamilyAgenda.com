@@ -67,12 +67,11 @@ I will be using CSS styling, specifically grid and flex.
 
 #### Wireframes
 
-> Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
-
 - Desktop Landing
 ![](https://i.imgur.com/EqMCQxa.png)
 
-![Dummy Link](url)
+- Registration Page
+![](https://imgur.com/59h4tzQ)
 
 - Desktop Hero
 
