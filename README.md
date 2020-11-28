@@ -82,6 +82,7 @@ I will be using CSS styling, specifically grid and flex.
 
 
 - Poet Profile Page
+<img src=”https://i.imgur.com/RqyU55x.png” width=”100">
 ![](https://i.imgur.com/RqyU55x.png) | width=100
 
 #### Component Tree
