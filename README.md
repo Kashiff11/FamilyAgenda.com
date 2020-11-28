@@ -73,8 +73,12 @@ I will be using CSS styling, specifically grid and flex.
 - Registration Page
 ![](https://i.imgur.com/59h4tzQ.png)
 
-- User Home Pahe
+- User Home Page
 ![](https://i.imgur.com/hxCe94r.png)
+
+
+- Single Poem Page
+![](https://i.imgur.com/ta8pL3m.png)
 
 #### Component Tree
 
