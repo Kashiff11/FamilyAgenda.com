@@ -87,6 +87,9 @@ I will be using CSS styling, specifically grid and flex.
 - Create Poet Profile Page
 ![](https://i.imgur.com/sFqAzLm.png)
 
+- Add Poem Page
+![](https://i.imgur.com/k6NUKig.png)
+
 
 
 #### Component Tree
