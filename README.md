@@ -80,6 +80,10 @@ I will be using CSS styling, specifically grid and flex.
 - Single Poem Page
 ![](https://i.imgur.com/ta8pL3m.png)
 
+
+- Poet Profile Page
+![](https://i.imgur.com/RqyU55x.png) | width=100
+
 #### Component Tree
 
 > Use this section to display the structure of how your React components are being rendered. This should show the parent to child relation between you components. In other words, show which components are rendering the other components. 
