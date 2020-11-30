@@ -169,15 +169,20 @@ src
 
 #### Time Estimates
 
-> Use this section to estimate the time necessary to build out each of the components you've described above.
-
-| Task                | Priority | Estimated Time | Time Invested | Actual Time |
-| ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Add Contact Form    |    L     |     3 hrs      |     2 hrs     |    3 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
-| TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
-
-> _Why is this necessary? Time frames are key to the development cycle. You have limited time to code your app, and your estimates can then be used to evaluate possibilities of your MVP and post-MVP based on time needed. It's best you assume an additional hour for each component, as well as a few hours added to the total time, to play it safe._
+| Component              | Priority | Estimated Time | Time Invested | Actual Time |
+| ---------------------- | :------: | :------------: | :-----------: | :---------: |
+| Creating Wireframes    |    M     |      10hrs     |     10hrs     |   10hrs     |
+| Creating Hierarchy     |    M     |      1hrs      |     1hrs      |    1hrs     |
+| Creating Component Tree|    L     |      1hrs      |     1hrs      |    1hrs     |
+| Creating README        |    H     |      6hrs      |     6hrs      |    6hrs     |
+| SQL tables             |    H     |      5hrs      |     0hrs      |    0hrs     |
+| Creating Backend Server|    H     |     16hrs      |     0hrs      |    0hrs     |
+| React Architecture     |    H     |      5hrs      |     0hrs      |    0hrs     |
+| Create React App       |    H     |     16hrs      |     0hrs      |    0hrs     |
+| Review/Complete MVP    |    H     |      8hrs      |     0hrs      |    0hrs     |
+| Styling Complete       |    M     |     10hrs      |     10hrs     |    10hrs    |
+| Post MVP Additions     |    L     |      6hrs      |     0hrs      |    0hrs     |
+| Total                  |    H     |     84hrs      |     18hrs     |    18hrs    |
 
 <br>
 
