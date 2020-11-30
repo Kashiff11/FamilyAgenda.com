@@ -73,7 +73,7 @@ Although desktop/ipad views will be similar, there will be changes made to the s
 ![](https://i.imgur.com/EqMCQxa.png)
 
 - Desktop/Ipad Registration Page
-![](https://i.imgur.com/59h4tzQ.png)
+![](https://i.imgur.com/3dIRupG.png)
 
 - Desktop/Ipad User Home Page
 ![](https://i.imgur.com/hxCe94r.png)
