@@ -24,15 +24,16 @@
 
 - Front end will be created with **React app**, using functional components:
 
-|     Screens      | Components  |
-| :--------------: | :---------: |
-|     Home Page    |   Header    |
-|   Register Page  |   Footer    |
-|   User Home Page |Register Card|
-|   Add Poem Page  |Sign In Card |
-|   Add Poet Page  | Poem Feed   |
-| Single Poet Page | Poet Card   |
-|  Single Poem Page|             |
+|     Screens      | Components    |
+| :--------------: | :-----------: |
+|     Home Page    |   Navbar      |
+|   Register Page  |Sign In Card   |
+|   User Home Page |Register Card  |
+|   Add Poem Page  |Poem Intro Card|
+|   Add Poet Page  |Full Poem Card |
+| Single Poet Page |Poet Bio Card  |
+|  Single Poem Page|Add Poem       |
+|                  |Add Poet       |
 
 - The app will use **React Router**, for client-side routing.
 
