@@ -104,25 +104,67 @@ Although desktop/ipad views will be similar, there will be changes made to the s
 
 > Use this section to define your React components and the data architecture of your app. This should be a reflection of how you expect your directory/file tree to look like. 
 
-``` structure
-
+```
 src
-|__ assets/
-      |__ fonts
-      |__ graphics
-      |__ images
-      |__ mockups
-|__ components/
-      |__ Header.jsx
-|__ services/
+├──components
+   ├──Navbar.js
+   ├──SignInCard.js
+   ├──RegisterCard.js
+   ├──PoemIntroCard.js
+   ├──FullPoemCard.js
+├──layout
+├──screens
+├──services
+├──App.css
+├──App.js
+├──Index.css
+├──Index.js
+├──reportWebVitals.js
 
+
+    ├── App.css
+    ├── App.jsx // This is the brain of our application, where our screens will be rendered (inside of a <Route />), and data will be stored to pass down to all necessary screens below.
+    ├── App.test.js
+    ├── components // This folder is for non-top level components, i.e. things rendered within one of the screens.
+    │   ├── Product // For each component, we have an individual folder with a unique .jsx and .css file per component.
+    │   │   ├── Product.css
+    │   │   └── Product.jsx
+    │   ├── Search
+    │   │   ├── Search.css
+    │   │   └── Search.jsx
+    │   ├── Sort
+    │   │   ├── Sort.css
+    │   │   └── Sort.jsx
+    │   └── shared // This folder is for components that will appear across all screens.
+    │       ├── Footer
+    │       │   ├── Footer.css
+    │       │   └── Footer.jsx
+    │       ├── Layout
+    │       │   ├── Layout.css
+    │       │   └── Layout.jsx
+    │       └── Nav
+    │           ├── Nav.css
+    │           └── Nav.jsx
+    ├── index.css
+    ├── index.js
+    ├── screens // This folder is for top-level components, i.e. components rendered in a <Route /> in App.js.
+    │   ├── ProductDetail
+    │   │   ├── ProductDetail.css
+    │   │   └── ProductDetail.jsx
+    │   └── Products
+    │       ├── Products.css
+    │       └── Products.jsx
+    ├── serviceWorker.js
+    ├── services // This folder is for API calls.
+    │   └── products.js
+    ├── setupTests.js
+    └── utils // This folder is for helper functions, such as sorts.
+        └── sort.js
+
+15 directories, 35 files
 ```
 
-#### Component Tree
-
-> Use this section to include a link to your component tree.
-
-[Component tree](url)
+```
 
 #### Time Estimates
 
