@@ -2,7 +2,7 @@
 
 ## Overview
 
-**MyPoemsCollection.com** is an app designed for poetry entusiasts everywhere. Users will be able to scroll through a library of poet profiles and collected poems created by a community of poetry lovers. Poet Profiles will be organized either alphabetically, place of birth, or birth date. Poems will be categorized by author, topic, and compilation date. Users will create profiles for their favorite poets, introducing them to the public, and will be able to add their own favorite poems to the library, building a 
+**MyPoemsCollection.com** is an app designed for poetry entusiasts everywhere. Users will be able to scroll through a library of poet profiles and collected poems created by a community of poetry lovers. Users will create profiles for their favorite poets, introducing them to the public, and will be able to add their own favorite poems to the library, building a 
 <br>
 
 **MyPoemsCollection.com MVP** 
@@ -196,6 +196,7 @@ src
 
 ## Post-MVP
 
+- Add sort functionality
 - Add favorites functionallity
 - Add friends functionallity
 
