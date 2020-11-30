@@ -197,7 +197,7 @@ src
 ## Post-MVP
 
 - Add favorites functionallity
-- Add frieds functionallity
+- Add friends functionallity
 
 ***
 
