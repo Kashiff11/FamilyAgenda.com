@@ -12,11 +12,8 @@
 - **Server** built with Ruby on Rails with RESTful JSON endpoints. 
 - **Database** will have three tables:
   - **User Table**: this table will be created wen registering for the app. This table will have a 1:m relationsip with the poets' table.
-  - **Poets Table**: This table will have a m:1 relationship with the users table and 1:m relationship with the Poems table. Users will be able to create a "Poet Profile with the following information:
-    -Name
-    -Year of Birth
-    -Place of Birth
-  - **Poems Table**: This table will have a m:1 relationship with the poets' table.
+  - **Poets Table**: This table will have a m:1 relationship with the users table and 1:m relationship with the Poems table.
+  - **Poems Table**: This table will have a m:1 relationship with the poets' table and user's table
 - **Rails** will be used define models for interacting with the tables in my database.
 - Working generic controller actions for Full CRUD between the tables in my database. 
 
