@@ -67,30 +67,33 @@ I will be using CSS styling, specifically grid and flex.
 
 #### Wireframes
 
-- Desktop Landing
+Although desktop/ipad views will be similar, there will be changes made to the sizing fo all fonts and components.
+
+- Desktop/Ipad Landing
 ![](https://i.imgur.com/EqMCQxa.png)
 
-- Registration Page
+- Desktop/Ipad Registration Page
 ![](https://i.imgur.com/59h4tzQ.png)
 
-- User Home Page
+- Desktop/Ipad User Home Page
 ![](https://i.imgur.com/hxCe94r.png)
 
 
-- Single Poem Page
+- Desktop/Ipad Single Poem Page
 ![](https://i.imgur.com/ta8pL3m.png)
 
 
-- Poet Profile Page
+- Desktop/Ipad Poet Profile Page
 ![](https://i.imgur.com/RqyU55x.png)
 
-- Create Poet Profile Page
+- Desktop/Ipad Create Poet Profile Page
 ![](https://i.imgur.com/sFqAzLm.png)
 
-- Add Poem Page
+- Desktop/Ipad Add Poem Page
 ![](https://i.imgur.com/k6NUKig.png)
 
-
+- Mobile wireframes
+![](https://i.imgur.com/jDOJsR6.png)
 
 #### Component Tree
 
