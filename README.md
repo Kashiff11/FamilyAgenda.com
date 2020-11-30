@@ -104,60 +104,81 @@ Although desktop/ipad views will be similar, there will be changes made to the s
 
 ```
 src
+|
 ├──components
-   ├──navbar
-   |  ├──Navbar.css
-   |  ├──Navbar.js
-   ├──signin
-   |  ├──SignInCard.css
-   |  ├──SignInCard.js
-   ├──register
-   |  ├──RegisterCard.css
-   |  ├──RegisterCard.js
-   ├──poemintro
-   |  ├──PoemIntroCard.css
-   |  ├──PoemIntroCard.js
-   ├──fullpoem
-   |  ├──FullPoemCard.css
-   |  ├──FullPoemCard.js
-   ├──poetbio
-   |  ├──PoetBioCard.css
-   |  ├──PoetBioCard.js
-   ├──addpoet
-   |  ├──AdddPoetCard.css
-   |  ├──AdddPoetCard.js
-   ├──addpoem
-      ├──AdddPoemCard.css
-      ├──AdddPoemCard.js
+|  |
+|  ├──navbar
+|  |  ├──Navbar.css
+|  |  ├──Navbar.js
+|  |
+|  ├──signin
+|  |  ├──SignInCard.css
+|  |  ├──SignInCard.js
+|  |
+|  ├──register
+|  |  ├──RegisterCard.css
+|  |  ├──RegisterCard.js
+|  |
+|  ├──poemintro
+|  |  ├──PoemIntroCard.css
+|  |  ├──PoemIntroCard.js
+|  |
+|  ├──fullpoem
+|  |  ├──FullPoemCard.css
+|  |  ├──FullPoemCard.js
+|  |
+|  ├──poetbio
+|  |  ├──PoetBioCard.css
+|  |  ├──PoetBioCard.js
+|  |
+|  ├──addpoet
+|  |  ├──AdddPoetCard.css
+|  |  ├──AdddPoetCard.js
+|  |
+|  ├──addpoem
+|     ├──AdddPoemCard.css
+|     ├──AdddPoemCard.js
+|  |
 ├──layout
-   ├──Layout.js
+|  ├──Layout.js
+|
 ├──screens
-   ├──signinscreen
-   |  ├──SignInScreen.css
-   |  ├──SignInScreen.js
-   ├──registerscreen
-   |  ├──RegisterScreen.css
-   |  ├──RegisterScreen.js
-   ├──poemintroscreen
-   |  ├──PoemIntroScreen.css
-   |  ├──PoemIntroScreen.js
-   ├──fullpoemscreen
-   |  ├──FullPoemScreen.css
-   |  ├──FullPoemScreen.js
-   ├──poetbioscreen
-   |  ├──PoetBioScreen.css
-   |  ├──PoetBioScreen.js
-   ├──adddpoetscreen
-   |  ├──AdddPoetScreen.css
-   |  ├──AdddPoetScreen.js
-   ├──adddpoemscreen
-      ├──AdddPoemScreen.css
-      ├──AdddPoemScreen.js
+|  |
+|  ├──signinscreen
+|  |  ├──SignInScreen.css
+|  |  ├──SignInScreen.js
+|  |
+|  ├──registerscreen
+|  |  ├──RegisterScreen.css
+|  |  ├──RegisterScreen.js
+|  |
+|  ├──poemintroscreen
+|  |  ├──PoemIntroScreen.css
+|  |  ├──PoemIntroScreen.js
+|  |
+|  ├──fullpoemscreen
+|  |  ├──FullPoemScreen.css
+|  |  ├──FullPoemScreen.js
+|  |
+|  ├──poetbioscreen
+|  |  ├──PoetBioScreen.css
+|  |  ├──PoetBioScreen.js
+|  |
+|  ├──adddpoetscreen
+|  |  ├──AdddPoetScreen.css
+|  |  ├──AdddPoetScreen.js
+|  |
+|  ├──adddpoemscreen
+|     ├──AdddPoemScreen.css
+|     ├──AdddPoemScreen.js
+|  |
 ├──service
-   ├──apiConfig.js
-   ├──auth.js
-   ├──poets.js
-   ├──poems.js
+|  |
+|  ├──apiConfig.js
+|  ├──auth.js
+|  ├──poets.js
+|  ├──poems.js
+|
 ├──App.css
 ├──App.js
 ├──Index.css
