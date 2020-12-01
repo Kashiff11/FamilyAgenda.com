@@ -1,8 +1,11 @@
+import Navbar from '../components/navbar/Navbar'
+import SignInScreen from '../screens/signInScreen/SignInScreen'
+import './Layout.css'
+
 export default function Layout(props) {
   return (
     <div>
-      <h1>My Poetry Collection</h1>
-      {props.children}
+      <Navbar/>
     </div>
   )
 }
