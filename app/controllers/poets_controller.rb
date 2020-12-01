@@ -1,5 +1,6 @@
 class PoetsController < ApplicationController
   before_action :set_poet, only: [:show, :update, :destroy]
+  before_action :authorize_request, only: [:create, :update, :destroy]
 
   # GET /poets
   def index
@@ -10,12 +11,13 @@ class PoetsController < ApplicationController
 
   # GET /poets/1
   def show
-    render json: @poet
+    render json: @poet, include: :poems
   end
 
   # POST /poets
   def create
     @poet = Poet.new(poet_params)
+    @poem.user = @current_user
 
     if @poet.save
       render json: @poet, status: :created, location: @poet

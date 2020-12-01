@@ -1,15 +1,18 @@
 class User < ApplicationRecord
   has_secure_password
 
-  validates :first_name, :last_name, presence: true
-  validates :first_name, :last_name, { with: /\A[a-zA-Z]+\z/,
-    message: "Only letters allowed for first/last name" }
+  validates :first_name, presence: true
+  validates :last_name, presence: true
+  # validates :first_name, { with: /\A[a-zA-Z]+\z/,
+  #   message: "Only letters allowed for first/last name" }
+  # validates :last_name, { with: /\A[a-zA-Z]+\z/,
+  #   message: "Only letters allowed for first/last name" }
 
   validates :date_of_birth, presence: true
 
   validates :phone_number, presence: true, uniqueness: true
-  validates :phone_number => {:format => /\d{3}-\d{3}-\d{4}/,
-    message: "Phone number should be in the following format: xxx-xxx-xxxx."}
+  # validates :phone_number, :format {with: /\d{3}-\d{3}-\d{4}/,
+  #   message: "Phone number should be in the following format: xxx-xxx-xxxx."}
   
   validates :email, presence: true, uniqueness: true
   validates :email, format: {with: URI::MailTo::EMAIL_REGEXP,
