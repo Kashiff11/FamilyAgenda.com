@@ -17,7 +17,7 @@ class PoetsController < ApplicationController
   # POST /poets
   def create
     @poet = Poet.new(poet_params)
-    @poem.user = @current_user
+    @poet.user = @current_user
 
     if @poet.save
       render json: @poet, status: :created, location: @poet
