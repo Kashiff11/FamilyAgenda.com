@@ -1,9 +1,8 @@
 import React from 'react';
 import SignIn from '../../components/signIn/SignIn';
-import Layout from '../../layouts/Layout';
 import './SignInScreen.css'
 
-function SignInScreen() {
+function SignInScreen(props) {
   return (
     <div>
       <SignIn/>
