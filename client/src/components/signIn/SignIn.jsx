@@ -2,7 +2,7 @@ import './SignIn.css'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-export default function SignIn() {
+export default function SignIn(props) {
 
   const [formData, setFormData] = useState({
     username: '',
@@ -20,7 +20,10 @@ export default function SignIn() {
   return (
     <div>
       <h2 className="signIn-title">My Poetry Collection</h2>
-      <form>
+      <form onSubmit={(e) => {
+        e.preventDefault();
+        props.handleLogin(formData);
+      }}>
         <label htmlFor="username">
           <input
             type='text'
