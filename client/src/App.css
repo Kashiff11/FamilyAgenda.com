@@ -1,5 +1,18 @@
 .App {
+  display: grid;
+  grid-template-columns: 30% 30% 30% auto;
   position: fixed;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+}
+
+.appNavbar {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.appContainer {
+  grid-column-start: 1;
+  grid-column-end: 4;
 }

@@ -1,9 +1,10 @@
-import './App.css';
 import { useState } from 'react';
-import SignInScreen from './screens/signInScreen/SignInScreen';
 import { Switch, Route, useHistory } from 'react-router-dom';
-import { loginUser } from './services/auth';
+import { loginUser, registerUser } from './services/auth';
 import Navbar from './components/navbar/Navbar';
+import SignInScreen from './screens/signInScreen/SignInScreen';
+import RegisterScreen from './screens/registerScreen/RegisterScreen';
+import './App.css';
 
 function App() {
 
@@ -16,14 +17,22 @@ function App() {
     history.push('/home');
   }
 
+  const handleRegister = async (registerData) => {
+    const userData = await registerUser(registerData);
+    setCurrentUser(userData);
+    history.push('/home');
+  }
+
   return (
     <div className="App">
-      <Navbar />
-      <Switch>
-        <Route exact path="/home"><h3>UserHome</h3></Route>;
-        <Route exact path="/register"><h3>Register</h3></Route>;
-        <Route exact path="/"><SignInScreen handleLogin={handleLogin} /></Route>;
-      </Switch> 
+      <div className='appContainer'>
+        <Switch>
+          <Route exact path="/home"><h3>UserHome</h3></Route>;
+          <Route exact path="/register"><RegisterScreen handleRegister={handleRegister}/></Route>;
+          <Route exact path="/"><SignInScreen handleLogin={handleLogin} /></Route>;
+        </Switch>
+      </div>
+      <Navbar className='appNavbar' />
     </div>
   );
 }
