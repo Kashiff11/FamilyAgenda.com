@@ -1,0 +1,11 @@
+.register_div {
+  color: white;
+  display: grid;
+  grid-template-columns: 35% 35% auto;
+}
+
+.register_interior_div {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: rgb(99, 107, 118, 43%);
+}
