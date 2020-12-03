@@ -5,6 +5,9 @@ import Navbar from './components/navbar/Navbar';
 import SignInScreen from './screens/signInScreen/SignInScreen';
 import RegisterScreen from './screens/registerScreen/RegisterScreen';
 import './App.css';
+import UserHomeScreen from './screens/userHomeScreen/UserHomeScreen';
+import AddPoetScreen from './screens/addPoetScreen/AddPoetScreen';
+import AddPoemScreen from './screens/addPoemScreen/AddPoemScreen';
 
 function App() {
 
@@ -45,7 +48,9 @@ function App() {
     <div className="App">
       <div className='appContainer'>
         <Switch>
-          <Route exact path="/home"><h3>UserHome</h3></Route>;
+          <Route exact path="/poets"><AddPoetScreen currentUser={currentUser} /></Route>;
+          <Route exact path="/poems"><AddPoemScreen currentUser={currentUser}/></Route>;
+          <Route exact path="/home"><UserHomeScreen currentUser={currentUser}/></Route>;
           <Route exact path="/register"><RegisterScreen handleRegister={handleRegister}/></Route>;
           <Route exact path="/"><SignInScreen handleLogin={handleLogin} /></Route>;
         </Switch>
