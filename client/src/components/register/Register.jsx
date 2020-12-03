@@ -22,7 +22,8 @@ export default function Register(props) {
   }
 
   return (
-    <div>
+    <div className='register_div'>
+      <div className='register_interior_div'>
       <h2 className="register-title">Register</h2>
       <form onSubmit={(e) => {
         e.preventDefault();
@@ -102,6 +103,7 @@ export default function Register(props) {
         <br/>
         <button>Submit</button>
       </form>
+      </div>
     </div>
   )
 }

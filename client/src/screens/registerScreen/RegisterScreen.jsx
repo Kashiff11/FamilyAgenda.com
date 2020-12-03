@@ -4,8 +4,8 @@ import './RegisterScreen.css'
 
 function RegisterScreen(props) {
   return (
-    <div>
-      <Register handleRegister={props.handleRegister}/>
+    <div register_screen_div>
+      <Register className="register_card_container" handleRegister={props.handleRegister}/>
     </div>
   );
 }
