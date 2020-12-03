@@ -24,10 +24,12 @@ export default function Register(props) {
   return (
     <div className='register_div'>
       <div className='register_interior_div'>
-      <h2 className="register-title">Register</h2>
-      <form onSubmit={(e) => {
-        e.preventDefault();
-        props.handleRegister(formData);
+      <h2 className="register_title">Register</h2>
+        <form
+          className="register_form"
+          onSubmit={(e) => {
+            e.preventDefault();
+            props.handleRegister(formData);
         }}>
         <label htmlFor="First Name">First Name
           <input
