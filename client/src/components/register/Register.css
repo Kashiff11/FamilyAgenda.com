@@ -1,11 +1,25 @@
 .register_div {
   color: white;
+  height: 100vh;
   display: grid;
-  grid-template-columns: 35% 35% auto;
+  grid-template-columns: 40% 40% auto;
+  grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
 .register_interior_div {
+  display: grid;
+  grid-template-rows: 20% 20% 20% 20% 20%;
   grid-column-start: 1;
   grid-column-end: 3;
   background-color: rgb(99, 107, 118, 43%);
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.register_title {
+  grid-row-start: 2;
+}
+
+.register_form {
+  grid-row-start: 3;
 }
