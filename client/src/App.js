@@ -15,6 +15,9 @@ function App() {
     const handleVerify = async () => {
       const userData = await verifyUser();
       setCurrentUser(userData)
+      if (!userData) {
+        history.push('/');
+      }
     }
     handleVerify();
   }, [])
@@ -40,7 +43,7 @@ function App() {
           <Route exact path="/"><SignInScreen handleLogin={handleLogin} /></Route>;
         </Switch>
       </div>
-      <Navbar className='appNavbar' />
+      <Navbar className='appNavbar' currentUser={currentUser}/>
     </div>
   );
 }
