@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Switch, Route, useHistory } from 'react-router-dom';
-import { loginUser, registerUser, verifyUser } from './services/auth';
+import { loginUser, registerUser, removeToken, verifyUser } from './services/auth';
 import Navbar from './components/navbar/Navbar';
 import SignInScreen from './screens/signInScreen/SignInScreen';
 import RegisterScreen from './screens/registerScreen/RegisterScreen';
@@ -34,6 +34,13 @@ function App() {
     history.push('/home');
   }
 
+  const handleLogout = () => {
+    setCurrentUser(null);
+    localStorage.removeItem('authToken');
+    removeToken();
+    history.push('/');
+  }
+
   return (
     <div className="App">
       <div className='appContainer'>
@@ -43,7 +50,11 @@ function App() {
           <Route exact path="/"><SignInScreen handleLogin={handleLogin} /></Route>;
         </Switch>
       </div>
-      <Navbar className='appNavbar' currentUser={currentUser}/>
+      <Navbar
+        className='appNavbar'
+        currentUser={currentUser}
+        handleLogout={handleLogout}
+      />
     </div>
   );
 }
