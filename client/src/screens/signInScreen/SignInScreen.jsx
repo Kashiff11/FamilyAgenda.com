@@ -4,7 +4,7 @@ import './SignInScreen.css'
 
 function SignInScreen(props) {
   return (
-    <div>
+    <div className="signin_screen_card_container">
       <SignIn handleLogin={props.handleLogin}/>
     </div>
   );

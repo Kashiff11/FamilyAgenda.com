@@ -1,3 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+
+.signin_form_container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% auto;
+  height: 100vh;
+}
+
+.signin_form {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: rgb(99, 107, 118, 43%);
+  display: grid;
+  grid-template-rows: 15% 15% 40% 15% 15%;
+}
+
+.signin_form_fields {
+  display: flex;
+  flex-direction: column;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  justify-self: center;
+}
+
 .signIn-title {
   color: white;
+  font-family: 'Bitter', serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.signIn-username {
+  width: 99%;
+  height: 30px;
+  background-color: rgb(100, 108, 119);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.signIn-password {
+  width: 99%;
+  height: 30px;
+  background-color: rgb(100, 108, 119);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.signin_submit_button {
+  height: 30px;
+  width: 48%;
+  margin-right: 2%;
+  border: 0;
+  padding: 0;
+  border-radius: 20px;
+  background-color: rgb(216, 0, 45);
+  font-size: 23px;
+  color: white;
+  font-family: 'Bitter', serif;
+}
+
+.signin_register_button {
+  height: 30px;
+  width: 48%;
+  margin-left: 2%;
+  border: 0;
+  padding: 0;
+  border-radius: 20px;
+  background-color: rgb(216, 0, 45);
+  font-size: 23px;
+  color: white;
+  font-family: 'Bitter', serif;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Bitter', serif;
 }
