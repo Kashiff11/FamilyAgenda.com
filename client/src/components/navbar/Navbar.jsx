@@ -10,8 +10,8 @@ export default function Navbar(props) {
       {currentUser &&
         <>
           <p>Welcome, {currentUser.first_name} {currentUser.last_name}</p>
-          <Link to='/poets'><button>+ Poet</button></Link>
-          <Link to='/poems'><button>+ Poem</button></Link>
+          <Link to='/poets/new'><button>+ Poet</button></Link>
+          <Link to='/poems/new'><button>+ Poem</button></Link>
           <button onClick={props.handleLogout}>Log Out</button>
         </>
       }
