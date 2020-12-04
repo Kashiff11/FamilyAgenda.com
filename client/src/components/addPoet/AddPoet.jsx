@@ -6,8 +6,8 @@ export default function AddPoet(props) {
   const [formData, setFormData] = useState({
     first_name: '',
     last_name: '',
-    year_born: '',
-    year_died: '',
+    year_born: null,
+    year_died: null,
     birthplace: '',
     short_bio: '',
   })
@@ -22,7 +22,13 @@ export default function AddPoet(props) {
 
   return (
     <div className="add_poet_form_div">
-      <form className="add_poet_form">
+      <form
+        className="add_poet_form"
+        onSubmit={(e) => {
+          e.preventDefault()
+          props.handleCreatePoet(formData)
+        }}
+      >
         <label htmlFor="First Name">First Name
           <input
             type='text'
