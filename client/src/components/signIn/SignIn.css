@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bitter&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bitter&display=swap");
 
 .signin_form_container {
   display: grid;
@@ -24,7 +24,7 @@
 
 .signIn-title {
   color: white;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
   font-size: 40px;
   margin-bottom: 10px;
   font-weight: bold;
@@ -64,7 +64,7 @@
   background-color: rgb(216, 0, 45);
   font-size: 23px;
   color: white;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
 .signin_register_button {
@@ -77,12 +77,13 @@
   background-color: rgb(216, 0, 45);
   font-size: 23px;
   color: white;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
   color: white;
   font-size: 23px;
   text-align: center;
-  font-family: 'Bitter', serif;
+  font-family: "Bitter", serif;
 }
