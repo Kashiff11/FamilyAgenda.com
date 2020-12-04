@@ -10,7 +10,7 @@ export default function UserHome(props) {
           <React.Fragment key={poem.id}>
             <p>{poem.title}</p>
             <p>{poem.content}</p>
-            <Link to={`/poems/${poem.id}`}><button>Full Poem</button></Link>
+            <Link to={`/home/poems/${poem.id}`}><button>Full Poem</button></Link>
             <button>Poet Profile</button>
           </React.Fragment>
         ))

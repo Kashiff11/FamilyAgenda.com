@@ -49,11 +49,11 @@ function App() {
     <div className="App">
       <div className='appContainer'>
         <Switch>
-          <Route exact path="/poets/new"><AddPoetScreen currentUser={currentUser} /></Route>;
-          <Route exact path="/poems/new"><AddPoemScreen currentUser={currentUser}/></Route>;
-          <Route exact path="/home"><UserHomeScreen currentUser={currentUser}/></Route>;
-          <Route exact path="/register"><RegisterScreen handleRegister={handleRegister}/></Route>;
-          <Route exact path="/"><SignInScreen handleLogin={handleLogin} /></Route>;
+          <Route path="/poets/new"><AddPoetScreen currentUser={currentUser} /></Route>;
+          <Route path="/poems/new"><AddPoemScreen currentUser={currentUser}/></Route>;
+          <Route path="/home"><UserHomeScreen currentUser={currentUser}/></Route>;
+          <Route path="/register"><RegisterScreen handleRegister={handleRegister}/></Route>;
+          <Route path="/"><SignInScreen handleLogin={handleLogin} /></Route>;
         </Switch>
       </div>
       <Navbar

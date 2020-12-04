@@ -1,5 +1,6 @@
 import {useEffect, useState} from 'react';
 import { useParams } from 'react-router-dom'
+import './Poem.css'
 
 export default function Poem(props) {
 
@@ -14,16 +15,19 @@ export default function Poem(props) {
     const showOnePoem = () => {
       const singlePoem = props.poems.find(poem => poem.id === Number(id));
       setPoemData({
-        poem_title: showOnePoem.title,
-        poem_content: showOnePoem.content,
+        poem_title: singlePoem.title,
+        poem_content: singlePoem.content,
       })
     }
-    showOnePoem();
-  }, [])
+    if (props.poems.length) {
+      showOnePoem()
+    }
+  }, [props.poems])
   
   return (
     <div>
-      <h1>{poemData.title}</h1>
+      <h1>{poemData.poem_title}</h1>
+      <h1>{poemData.poem_content}</h1>
     </div>
   );
 }

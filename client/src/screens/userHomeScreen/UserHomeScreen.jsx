@@ -20,9 +20,9 @@ export default function UserHomeScreen(props) {
 
   return (
     <div>
-      <UserHome currentUser={props.currentUser} poems={poems} />
       <Switch>
-        <Route path="/poems/:id"><PoemScreen currentUser={props.currentUser} poems={poems}/></Route>;
+        <Route path="/home/poems/:id"><PoemScreen currentUser={props.currentUser} poems={poems}/></Route>; 
+        <Route path="/home"><UserHome currentUser={props.currentUser} poems={poems} /></Route>
       </Switch>
     </div>
   )
