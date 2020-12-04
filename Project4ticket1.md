@@ -4,11 +4,11 @@
 
 ## Unexpected Behavior
 
-> I have used useState and UseEffect in  my AddPoemScreen to pull existing poets, and have passed this data as a prop to my AddPoem Component. As I am trying to map through and create a select bar of all existing poets, nothing is rendering to the screen.
+> I am routing to /poems/:id from my userhome page but it is not rendering the component.
 
 ## Expected Behavior
 
-> The Select bar should be portraying all current poets using their first and last names.
+> It should routing to the correct page and showing the single poem in props when I check dev tools.
 
 ## Reproduce the Error
 
@@ -18,23 +18,17 @@
 1. Clone this repo.
 2. Run `rails s` and `npm start` in two different tabs on terminal.
 3. Sign in using "Admin1set" as username and "123456" as password..
-4. Click on +Poem button in the navbar.
-5. Check the components tab in the devtools under AddPoem and AddPoemScreen; you should see the list of poets.
-6. Check ./client/src/screens/addPoemScreen/addPoemScreen.jsx and ./client/src/components/addPoem/AddPoem.jsx 
+4. Click on Full Poem button under any poem.
+5. Check the components tab in the devtools.. 
 
 ## Documentation
 
 > Include the exact error message, and if helpful, any supplemental documentation, such as screen captures.
 
-```md
-Copy and paste the contents of the error message here.
-```
+No error message
 
 ## Attempted Resolution
 
 > If you haven't already, **Google your error message now**. See if those error messages return an answer. Include at least 2 resources you've tried to consult such as walk-throughs, stack overflow articles, and other discussion threads related to your error.
 
-```md
-1. Link 1
-2. Link 2
-```
+No error rendering to google. I did look at the React/react-router-dom documentation as it seems like the error is because of the switch.
