@@ -7,6 +7,9 @@ export default function Poem(props) {
   const [poemData, setPoemData] = useState({
     poem_title: '',
     poem_content: '',
+    poem_poet_id: null,
+    poem_user_id: null,
+    poem_id: null
   })
 
   const { id } = useParams();
@@ -20,6 +23,7 @@ export default function Poem(props) {
         poem_content: singlePoem.content,
         poem_poet_id: singlePoem.poet_id,
         poem_user_id: singlePoem.user_id,
+        poem_id: singlePoem.id
       })
     }
     if (props.poems.length) {
@@ -36,7 +40,7 @@ export default function Poem(props) {
         currentUser.id === poemData.poem_user_id &&
           <>
             <button>Delete</button>
-            <Link to="/home/poemsgit hui/:id/edit"><button>Edit</button></Link>
+            <Link to={`/home/poems/${poemData.poem_id}/edit`}><button>Edit</button></Link>
           </>
       }
     </div>

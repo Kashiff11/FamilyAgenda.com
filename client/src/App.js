@@ -49,6 +49,7 @@ function App() {
     <div className="App">
       <div className='appContainer'>
         <Switch>
+          
           <Route path="/poets/new"><AddPoetScreen currentUser={currentUser} /></Route>;
           <Route path="/poems/new"><AddPoemScreen currentUser={currentUser}/></Route>;
           <Route path="/home"><UserHomeScreen currentUser={currentUser}/></Route>;

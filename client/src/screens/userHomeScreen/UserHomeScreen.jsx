@@ -22,7 +22,7 @@ export default function UserHomeScreen(props) {
   return (
     <div>
       <Switch>
-        <Route path="/home/poems/:id/edit"><PoemEditScreen currentUser={props.currentUser}/></Route>;
+        <Route path="/home/poems/:id/edit"><PoemEditScreen currentUser={props.currentUser} poems={poems}/></Route>;
         <Route path="/home/poems/:id"><PoemScreen currentUser={props.currentUser} poems={poems} /></Route>; 
         <Route path="/home"><UserHome currentUser={props.currentUser} poems={poems} /></Route>
       </Switch>
