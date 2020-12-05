@@ -52,7 +52,7 @@ function App() {
           
           <Route path="/poets/new"><AddPoetScreen currentUser={currentUser} /></Route>;
           <Route path="/poems/new"><AddPoemScreen currentUser={currentUser}/></Route>;
-          <Route path="/home"><UserHomeScreen currentUser={currentUser}/></Route>;
+          <Route path="/home"><UserHomeScreen currentUser={currentUser} history={history}/></Route>;
           <Route path="/register"><RegisterScreen handleRegister={handleRegister}/></Route>;
           <Route path="/"><SignInScreen handleLogin={handleLogin} /></Route>;
         </Switch>

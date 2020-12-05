@@ -29,7 +29,7 @@ export default function Poem(props) {
     if (props.poems.length) {
       showOnePoem()
     }
-  }, [props.poems])
+  }, [])
   
   return (
     <div>
@@ -37,9 +37,9 @@ export default function Poem(props) {
       <h1>{poemData.poem_content}</h1>
 
       {
-        currentUser.id === poemData.poem_user_id &&
+        currentUser?.id === poemData.poem_user_id &&
           <>
-            <button>Delete</button>
+          <button onClick={() => props.handleDelete(poemData.poem_id)}>Delete</button>
             <Link to={`/home/poems/${poemData.poem_id}/edit`}><button>Edit</button></Link>
           </>
       }
