@@ -4,7 +4,7 @@ import PoemEdit from '../../components/poemEdit/PoemEdit';
 export default function PoemEditScreen(props) {
   return (
     <div>
-      <PoemEdit poems={props.poems}/>
+      <PoemEdit poems={props.poems} handleUpdate={props.handleUpdate}/>
     </div>
   );
 }

@@ -20,5 +20,5 @@ puts "#{Poet.count} poets created."
 
 @poem = Poem.create!(title: 'Where is the car', content: 'Where is the car? Where it was last week, down by the water.', user: @admin, poet: @poet)
 @poem1 = Poem.create!(title: 'Where is the boat', content: 'Where is the boat? Where it was last week, down by the water.', user: @admin, poet: @poet1)
-
+@poem2 = Poem.create!(title: 'Where is the cart', content: 'Where is the cart? Where it was last week, down by the water.', user: @admin, poet: @poet)
 puts "#{Poem.count} poems created."
