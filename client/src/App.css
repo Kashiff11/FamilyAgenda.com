@@ -1,14 +1,13 @@
 .App {
   display: grid;
   grid-template-columns: 28% 28% 28% auto;
-  position: fixed;
   height: 100%;
   width: 100%;
   background-color: black;
   background-image: url(./images/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  
+  background-attachment: fixed;
 }
 
 .appNavbar {
