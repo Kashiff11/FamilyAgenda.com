@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import './Poem.css'
 
 export default function Poem(props) {
@@ -31,17 +31,13 @@ export default function Poem(props) {
     <div>
       <h1>{poemData.poem_title}</h1>
       <h1>{poemData.poem_content}</h1>
-      <h1>{poemData.poem_poet_id}</h1>
-      <h1>{poemData.poem_user_id}</h1>
 
       {
-        currentUser.id === poemData.poem_user_id ?
+        currentUser.id === poemData.poem_user_id &&
           <>
             <button>Delete</button>
-            <button>Edit</button>
+            <Link to="/home/poemsgit hui/:id/edit"><button>Edit</button></Link>
           </>
-          :
-          <h1>not you</h1>
       }
     </div>
   );
