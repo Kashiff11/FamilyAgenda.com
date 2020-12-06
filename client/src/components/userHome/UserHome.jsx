@@ -17,7 +17,7 @@ export default function UserHome(props) {
   }, [])
 
   return (
-    <div>
+    <div className="user_home_full_div">
       {
         props.poems.map(poem => (
         <div className="user_home_single_poem">

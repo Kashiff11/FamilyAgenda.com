@@ -29,13 +29,13 @@ export default function Poem(props) {
     if (props.poems.length) {
       showOnePoem()
     }
-  }, [])
+  }, [props.poems])
   
   return (
     <div className="poem_single_poem">
       <div className="single_poem">
-        <span className="single_poem_title">{poemData.poem_title}</span><br/>
-        <span className="single_poem_content">{poemData.poem_content}</span>
+        <p className="single_poem_title">{poemData.poem_title}</p>
+        <p className="single_poem_content">{poemData.poem_content}</p>
         {
           currentUser?.id === poemData.poem_user_id &&
             <>

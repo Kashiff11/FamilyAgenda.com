@@ -1,9 +1,27 @@
 .poem_single_poem {
   height: 100vh;
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .single_poem{
   background-color: rgb(99, 107, 118, 43%);
+  margin: 10% 15%;
+  padding: 3%;
+  height: fit-content;
 }
 
+.single_poem_title {
+  color: azure;
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(216, 0, 45);
+  font-family: "Bitter", serif;
+  margin-top: 0;
+}
+
+.single_poem_content {
+  font-size: larger;
+  font-weight: bold;
+}
