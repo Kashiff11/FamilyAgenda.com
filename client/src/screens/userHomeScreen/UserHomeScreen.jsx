@@ -7,6 +7,7 @@ import './UserHomeScreen.css'
 import { Route, Switch } from 'react-router-dom';
 import PoemScreen from '../poem/PoemScreen';
 import PoemEditScreen from '../poemEditScreen/PoemEditScreen';
+import PoetScreen from '../poetScreen/PoetScreen';
 
 export default function UserHomeScreen(props) {
 
@@ -37,7 +38,8 @@ export default function UserHomeScreen(props) {
   return (
     <div>
       <Switch>
-        <Route path="/home/poems/:id/edit"><PoemEditScreen currentUser={props.currentUser} poems={poems} handleUpdate={handleUpdate}/></Route>;
+        <Route path="/home/poems/poet/:id"><PoetScreen/></Route>
+        <Route path="/home/poems/:id/edit"><PoemEditScreen currentUser={props.currentUser} poems={poems} handleUpdate={handleUpdate} /></Route>;
         <Route path="/home/poems/:id"><PoemScreen currentUser={props.currentUser} poems={poems} handleDelete={handleDelete}/></Route>; 
         <Route path="/home"><UserHome currentUser={props.currentUser} poems={poems} /></Route>
       </Switch>
