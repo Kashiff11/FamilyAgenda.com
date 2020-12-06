@@ -32,17 +32,18 @@ export default function Poem(props) {
   }, [])
   
   return (
-    <div>
-      <h1>{poemData.poem_title}</h1>
-      <h1>{poemData.poem_content}</h1>
-
-      {
-        currentUser?.id === poemData.poem_user_id &&
-          <>
-          <button onClick={() => props.handleDelete(poemData.poem_id)}>Delete</button>
-            <Link to={`/home/poems/${poemData.poem_id}/edit`}><button>Edit</button></Link>
-          </>
+    <div className="poem_single_poem">
+      <div className="single_poem">
+        <span className="single_poem_title">{poemData.poem_title}</span><br/>
+        <span className="single_poem_content">{poemData.poem_content}</span>
+        {
+          currentUser?.id === poemData.poem_user_id &&
+            <>
+              <button onClick={() => props.handleDelete(poemData.poem_id)}>Delete</button>
+              <Link to={`/home/poems/${poemData.poem_id}/edit`}><button>Edit</button></Link>
+            </>
       }
+      </div>
     </div>
   );
 }

@@ -1,10 +1,21 @@
-h4 {
-  color: white;
-}
-
 .user_home_single_poem {
   background-color: rgb(99, 107, 118, 43%);
   margin: 3% 20%;
   border: 3px;
-  padding: 1%
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.user_home_poem_title {
+  font-family: "Bitter", serif;
+  color: rgb(246, 0, 13);
+  font-size: larger;
+  font-weight: bold;
+}
+
+.user_home_poem_content {
+  font-family: "Bitter", serif;
+  color: white;
+  font-size: large;
+  font-weight: 500;
 }

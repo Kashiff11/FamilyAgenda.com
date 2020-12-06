@@ -2,6 +2,7 @@
 import UserHome from '../../components/userHome/UserHome';
 import { useState, useEffect } from 'react';
 import { deleteOnePoem, getAllPoems, putOnePoem } from '../../services/poems';
+import { getAllPoets } from '../../services/poets';
 import './UserHomeScreen.css'
 import { Route, Switch } from 'react-router-dom';
 import PoemScreen from '../poem/PoemScreen';
