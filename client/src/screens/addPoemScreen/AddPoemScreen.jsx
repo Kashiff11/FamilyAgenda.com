@@ -17,7 +17,7 @@ export default function AddPoemScreen(props) {
   }, [])
 
   return (
-    <div>
+    <div className="poem_screen">
       <AddPoem poets={poets}/>
     </div>
   );
