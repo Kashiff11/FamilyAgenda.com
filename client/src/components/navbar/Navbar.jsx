@@ -12,8 +12,8 @@ export default function Navbar(props) {
       {currentUser &&
         <>
           <span className="nav_bar_welcome">Welcome {currentUser.first_name}</span>
-          <Link to='/poets/new'><span className="nav_bar_add_poet">+ Poet</span></Link>
-          <Link to='/poems/new'><span className="nav_bar_add_poem">+ Poem</span></Link>
+          <Link to='/poets/new'><span className="nav_bar_add_poet">Add Poet</span></Link>
+          <Link to='/poems/new'><span className="nav_bar_add_poem">Add Poem</span></Link>
           <span onClick={props.handleLogout} className="nav_bar_logout">Log Out</span>
         </>
       }
