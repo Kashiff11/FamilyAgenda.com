@@ -13,10 +13,12 @@
 }
 
 .nav_bar_welcome {
-  color: white;
   font-family: "Bitter", serif;
   margin-top: 26vh;
   position: fixed;
+  font-size: large;
+  color: rgb(216, 0, 45);
+  font-weight: bolder;
 }
 
 .nav_bar_add_poet {
@@ -39,6 +41,7 @@
   margin-top: 90vh;
   position: fixed;
   cursor: pointer;
+  font-size: medium;
 }
 
 .nav_bar_linkedin_logo {
@@ -49,4 +52,22 @@
   color: rgb(216, 0, 45);
   font-family: "Bitter", serif;
   grid-row-start: 6;
+}
+
+.nav_bar_logout:hover {
+  color: rgb(216, 0, 45);
+  font-size: large;
+  font-weight: bold;
+}
+
+.nav_bar_add_poem:hover {
+  color: rgb(216, 0, 45);
+  font-size: large;
+  font-weight: bold;
+}
+
+.nav_bar_add_poet:hover {
+  color: rgb(216, 0, 45);
+  font-size: large;
+  font-weight: bold;
 }
