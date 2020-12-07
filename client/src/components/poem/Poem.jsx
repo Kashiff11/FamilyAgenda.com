@@ -42,7 +42,7 @@ export default function Poem(props) {
               <button onClick={() => props.handleDelete(poemData.poem_id)}>Delete</button>
               <Link to={`/home/poems/${poemData.poem_id}/edit`}><button>Edit</button></Link>
             </>
-      }
+        }
       </div>
     </div>
   );

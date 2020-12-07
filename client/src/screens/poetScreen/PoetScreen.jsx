@@ -4,7 +4,7 @@ import Poet from '../../components/poet/Poet';
 export default function PoetScreen(props) {
   return (
     <div className="poet_screen_container">
-      <Poet/>
+      <Poet currentUser={props.currentUser}/>
     </div>
   );
 }
