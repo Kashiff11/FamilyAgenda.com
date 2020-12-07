@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import { Link, Route } from 'react-router-dom'
-import PoetScreen from '../../screens/poetScreen/PoetScreen';
+import { Link } from 'react-router-dom'
 import { getAllPoets } from '../../services/poets';
 import './UserHome.css'
 
@@ -24,9 +23,11 @@ export default function UserHome(props) {
         <div className="user_home_single_poem">
           <React.Fragment key={poem.id}>
             <span className="user_home_poem_title">{poem.title}</span><br/><br/>
-              <span className="user_home_poem_content">{poem.content}</span><br /><br />
-            <Link to={`/home/poems/${poem.id}`}><button>Full Poem</button></Link>
-            <Link to={`/home/poems/poet/${poem.poet_id}`}><button>Poet Profile</button></Link>
+            <span className="user_home_poem_content">{poem.content}</span><br /><br />
+            <div className="user_home_buttons"> 
+              <Link to={`/home/poems/${poem.id}`}><button className="user_home_button">Full Poem</button></Link>
+              <Link to={`/home/poems/poet/${poem.poet_id}`}><button className="user_home_button">Poet Profile</button></Link>
+            </div>
           </React.Fragment>
         </div>
         ))
