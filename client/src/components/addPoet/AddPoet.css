@@ -1,7 +1,114 @@
-h3 {
-  color: white
+.add_poet_form_div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
-.add_poet_form_div {
-  color: white
+.add_poet_form {
+  background-color: rgb(99, 107, 118, 43%);
+  margin: auto 15%;
+  padding: 3%;
+  height: fit-content;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Bitter", serif;
+}
+
+.add_poet_title {
+  margin: auto;
+  font-family: "Bitter", serif;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.add_poet_first_name {
+  width: 50%;
+  font-size: large;
+  font-family: "Bitter", serif;
+  color: rgb(216, 0, 45);
+  font-weight: 900;
+  background: rgba(100, 108, 119);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.add_poet_last_name {
+  width: 50%;
+  font-size: large;
+  font-family: "Bitter", serif;
+  color: rgb(216, 0, 45);
+  font-weight: 900;
+  background: rgba(100, 108, 119);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.add_poet_short_bio {
+  width: 100%;
+  height: 300px;
+  font-size: medium;
+  font-family: "Bitter", serif;
+  resize: none;
+  background-color: rgba(100, 108, 119);
+  outline: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.add_poet_year_born, .add_poet_year_died {
+  width: 24.25%;
+  font-size: large;
+  font-family: "Bitter", serif;
+  color: rgb(216, 0, 45);
+  font-weight: 900;
+  background: rgba(100, 108, 119);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.add_poet_year_born {
+  margin-right: 1vh;
+}
+
+.add_poet_birthplace {
+  width: 50%;
+  font-size: large;
+  font-family: "Bitter", serif;
+  color: rgb(216, 0, 45);
+  font-weight: 900;
+  background: rgba(100, 108, 119);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.add_poem_submit {
+  height: 30px;
+  width: 40%;
+  margin: auto;
+  margin-top: 2%;
+  border: 0;
+  padding: 0;
+  border-radius: 20px;
+  background-color: rgb(216, 0, 45);
+  font-size: 23px;
+  color: white;
+  font-family: "Bitter", serif;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
 }

@@ -36,6 +36,8 @@
   height: 300px;
   font-size: medium;
   font-family: "Bitter", serif;
+  resize: none;
+  outline: none;
 }
 
 .poem_edit_submit {

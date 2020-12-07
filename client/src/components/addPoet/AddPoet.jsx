@@ -29,7 +29,8 @@ export default function AddPoet(props) {
           props.handleCreatePoet(formData)
         }}
       >
-        <label htmlFor="First Name">First Name
+        <p className="add_poet_title">Add A Poet</p>
+        <label htmlFor="First Name">First Name<br/>
           <input
             type='text'
             className="add_poet_first_name"
@@ -38,8 +39,7 @@ export default function AddPoet(props) {
             onChange={handleChange}
           />
         </label>
-        <br/>
-        <label htmlFor="Last Name">Last Name
+        <label htmlFor="Last Name">Last Name<br/>
           <input
             type='text'
             className="add_poet_last_name"
@@ -48,8 +48,7 @@ export default function AddPoet(props) {
             onChange={handleChange}
           />
         </label>
-        <br/>
-        <label htmlFor="year-born-died">Year Born - Died
+        <label htmlFor="year-born-died">Year Born - Died <br/>
           <input
             type='integer'
             className="add_poet_year_born"
@@ -65,8 +64,7 @@ export default function AddPoet(props) {
             onChange={handleChange}
           />
         </label>
-        <br/>
-        <label htmlFor="birth-place">Birth Place
+        <label htmlFor="birth-place">Birth Place<br/>
           <input
             type='text'
             className="add_poet_birthplace"
@@ -75,9 +73,8 @@ export default function AddPoet(props) {
             onChange={handleChange}
           />
         </label>
-        <br />
-        <label htmlFor="short-bio">Short Bio
-          <input
+        <label htmlFor="short-bio">Short Bio<br/>
+          <textarea
             type='text'
             className="add_poet_short_bio"
             name='short_bio'
@@ -85,8 +82,7 @@ export default function AddPoet(props) {
             onChange={handleChange}
           />
         </label>
-        <br />
-        <button>Submit</button>
+        <button className="add_poem_submit">Submit</button>
       </form>
     </div>
   );
