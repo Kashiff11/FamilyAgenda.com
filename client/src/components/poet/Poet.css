@@ -1,3 +1,49 @@
-.poet_container {
+.poet_single_poet {
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.single_poet {
+  background-color: rgb(99, 107, 118, 43%);
+  margin: auto 15%;
+  padding: 3%;
+  height: fit-content;
+  border-radius: 20px;
+}
+
+.single_poet_name {
+  color: azure;
+  font-size: x-large;
+  font-weight: bolder;
+  color: rgb(216, 0, 45);
+  font-family: "Bitter", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.single_poet_lifespan {
+  color: azure;
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(216, 0, 45);
+  font-family: "Bitter", serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.single_poet_birthplace {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(216, 0, 45);
+  font-family: "Bitter", serif;
+}
+
+.single_poet_shortbio {
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Bitter", serif;
 }

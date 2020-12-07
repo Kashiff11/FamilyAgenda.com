@@ -7,9 +7,10 @@
 
 .single_poem{
   background-color: rgb(99, 107, 118, 43%);
-  margin: 10% 15%;
+  margin: auto 15%;
   padding: 3%;
   height: fit-content;
+  border-radius: 20px;
 }
 
 .single_poem_title {
@@ -24,4 +25,5 @@
 .single_poem_content {
   font-size: larger;
   font-weight: bold;
+  font-family: "Bitter", serif;
 }
