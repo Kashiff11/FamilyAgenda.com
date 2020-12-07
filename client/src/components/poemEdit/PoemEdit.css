@@ -1,3 +1,53 @@
-h1 {
+.poem_edit_container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.poem_edit_form {
+  background-color: rgb(99, 107, 118, 43%);
+  margin: auto 15%;
+  padding: 3%;
+  height: fit-content;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.edit_poem_title {
+  margin: auto;
+  font-family: "Bitter", serif;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.edit_poem_title_input {
+  width: 100%;
+  font-size: large;
+  font-family: "Bitter", serif;
+  color: rgb(216, 0, 45);
+  font-weight: 900;
+}
+
+.poem_edit_text_area {
+  width: 100%;
+  height: 300px;
+  font-size: medium;
+  font-family: "Bitter", serif;
+}
+
+.poem_edit_submit {
+  height: 30px;
+  width: 40%;
+  margin: auto;
+  margin-top: 2%;
+  border: 0;
+  padding: 0;
+  border-radius: 20px;
+  background-color: rgb(216, 0, 45);
+  font-size: 23px;
   color: white;
+  font-family: "Bitter", serif;
 }

@@ -35,29 +35,32 @@ export default function PoemEdit(props) {
 
 
   return (
-    <div>
-      <form onSubmit={(e) => {
+    <div className="poem_edit_container">
+      <form className="poem_edit_form"
+        onSubmit={(e) => {
         e.preventDefault();
         props.handleUpdate(id, editFormData)
       }}>
-        <h4>Edit Poem</h4>
-        <label>Title
+        <p className="edit_poem_title">Edit Poem</p>
+        <label><p>Title</p>
           <input
+            className="edit_poem_title_input"
             type="text"
             name="title"
             value={editFormData.title}
             onChange={handleChange}
           />
         </label>
-        <label>Content
-        <input
+        <label><p>Content</p>
+          <textarea
+            className="poem_edit_text_area"
             type="text"
             name="content"
             value={editFormData.content}
             onChange={handleChange}
           />
         </label>
-        <button>Submit</button>
+        <button className="poem_edit_submit">Submit</button>
       </form>
     </div>
   );
