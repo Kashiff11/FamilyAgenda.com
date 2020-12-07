@@ -25,8 +25,8 @@ export default function UserHome(props) {
             <span className="user_home_poem_title">{poem.title}</span><br/><br/>
             <span className="user_home_poem_content">{poem.content}</span><br /><br />
             <div className="user_home_buttons"> 
-              <Link to={`/home/poems/${poem.id}`}><button>Full Poem</button></Link>
-              <Link to={`/home/poems/poet/${poem.poet_id}`}><button>Poet Profile</button></Link>
+              <Link to={`/home/poems/${poem.id}`}><button className="user_home_button">Full Poem</button></Link>
+              <Link to={`/home/poems/poet/${poem.poet_id}`}><button className="user_home_button">Poet Profile</button></Link>
             </div>
           </React.Fragment>
         </div>
