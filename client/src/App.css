@@ -1,19 +1,14 @@
 .App {
   display: grid;
-  grid-template-columns: 28% 28% 28% auto;
+  grid-template-columns: 30% 30% 30% auto;
   height: 100%;
   width: 100%;
-  background-color: black;
-  background-image: url(./images/background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 .appNavbar {
   grid-column-start: 4;
   grid-column-end: 5;
-  position: sticky;
+  height: 100%;
 }
 
 .appContainer {
