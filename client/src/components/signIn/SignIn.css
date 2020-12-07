@@ -40,6 +40,11 @@
   border-bottom-style: hidden;
   margin-bottom: 10px;
   border-radius: 20px;
+  font-family: "Bitter", serif;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
 }
 
 .signIn-password {
@@ -52,6 +57,11 @@
   border-bottom-style: hidden;
   margin-bottom: 10px;
   border-radius: 20px;
+  font-family: "Bitter", serif;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
 }
 
 .signin_submit_button {
